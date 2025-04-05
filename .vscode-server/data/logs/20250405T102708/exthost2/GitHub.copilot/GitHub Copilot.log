@@ -470,3 +470,6 @@
 2025-04-05 14:19:38.562 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 211.59583500027657 ms
 2025-04-05 14:19:38.564 [info] [streamChoices] solution 0 returned. finish reason: [stop]
 2025-04-05 14:19:38.565 [info] [streamChoices] request done: headerRequestId: [c4fe39f8-20c5-440a-ad35-c47ff1f2cb8f] model deployment ID: []
+2025-04-05 14:26:00.244 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-04-05 14:26:00.244 [info] [code-referencing] Public code references are enabled.
+2025-04-05 14:26:00.255 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.

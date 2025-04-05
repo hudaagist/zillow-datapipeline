@@ -35,3 +35,10 @@ TypeError: e is not iterable
     at processTimers (node:internal/timers:519:7)
 2025-04-05 14:19:14.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2025-04-05 14:19:16.693 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-04-05 14:23:21.283 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-04-05 14:30:28.948 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2197
+2025-04-05 14:30:34.125 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2197
+2025-04-05 14:30:36.758 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2197
+2025-04-05 14:30:39.305 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2197
+2025-04-05 14:30:44.474 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2197
+2025-04-05 14:31:13.445 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2197

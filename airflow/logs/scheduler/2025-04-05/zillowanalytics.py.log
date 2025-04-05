@@ -7362,3 +7362,129 @@ airflow.exceptions.AirflowException: Invalid arguments were passed to S3KeySenso
 [2025-04-05T14:21:50.580+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:21:50.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-05T14:21:50.599+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:21:50.599+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
 [2025-04-05T14:21:50.621+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.160 seconds
+[2025-04-05T14:22:20.740+0000] {processor.py:186} INFO - Started process (PID=12052) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:22:20.742+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:22:20.743+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:22:20.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:22:20.754+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:22:20.848+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:22:20.847+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:22:20.861+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:22:20.861+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:22:20.881+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.148 seconds
+[2025-04-05T14:22:51.008+0000] {processor.py:186} INFO - Started process (PID=12056) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:22:51.010+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:22:51.011+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:22:51.011+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:22:51.023+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:22:51.116+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:22:51.115+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:22:51.133+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:22:51.133+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:22:51.295+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.294 seconds
+[2025-04-05T14:23:21.390+0000] {processor.py:186} INFO - Started process (PID=12193) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:23:21.391+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:23:21.392+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:23:21.392+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:23:21.406+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:23:21.500+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:23:21.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:23:21.517+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:23:21.517+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:23:21.548+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.167 seconds
+[2025-04-05T14:23:51.674+0000] {processor.py:186} INFO - Started process (PID=12210) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:23:51.677+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:23:51.678+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:23:51.677+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:23:51.691+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:23:51.785+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:23:51.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:23:51.798+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:23:51.798+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:23:51.816+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.148 seconds
+[2025-04-05T14:24:21.951+0000] {processor.py:186} INFO - Started process (PID=12394) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:24:21.952+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:24:21.952+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:24:21.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:24:21.963+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:24:22.049+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:24:22.049+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:24:22.062+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:24:22.061+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:24:22.078+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.134 seconds
+[2025-04-05T14:24:52.224+0000] {processor.py:186} INFO - Started process (PID=12398) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:24:52.225+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:24:52.227+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:24:52.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:24:52.237+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:24:52.330+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:24:52.329+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:24:52.343+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:24:52.343+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:24:52.361+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.144 seconds
+[2025-04-05T14:25:22.497+0000] {processor.py:186} INFO - Started process (PID=12402) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:25:22.498+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:25:22.499+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:25:22.498+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:25:22.509+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:25:22.601+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:25:22.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:25:22.616+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:25:22.615+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:25:22.633+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.143 seconds
+[2025-04-05T14:25:52.771+0000] {processor.py:186} INFO - Started process (PID=12403) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:25:52.773+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:25:52.775+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:25:52.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:25:52.785+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:25:52.879+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:25:52.879+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:25:52.894+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:25:52.894+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:25:52.911+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.147 seconds
+[2025-04-05T14:26:23.050+0000] {processor.py:186} INFO - Started process (PID=12657) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:26:23.051+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:26:23.052+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:26:23.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:26:23.064+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:26:23.157+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:26:23.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:26:23.172+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:26:23.172+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:26:23.330+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.287 seconds
+[2025-04-05T14:26:53.429+0000] {processor.py:186} INFO - Started process (PID=12744) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:26:53.430+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:26:53.432+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:26:53.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:26:53.443+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:26:53.539+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:26:53.539+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:26:53.694+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:26:53.694+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:26:53.710+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.288 seconds
+[2025-04-05T14:27:23.804+0000] {processor.py:186} INFO - Started process (PID=12943) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:27:23.806+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:27:23.807+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:27:23.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:27:23.818+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:27:23.909+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:27:23.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:27:23.923+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:27:23.923+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:27:23.942+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.145 seconds
+[2025-04-05T14:27:54.079+0000] {processor.py:186} INFO - Started process (PID=13040) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:27:54.082+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:27:54.083+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:27:54.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:27:54.096+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:27:54.188+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:27:54.188+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:27:54.202+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:27:54.202+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:27:54.220+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.147 seconds
+[2025-04-05T14:28:24.353+0000] {processor.py:186} INFO - Started process (PID=13190) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:28:24.354+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:28:24.356+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:28:24.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:28:24.367+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:28:24.462+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:28:24.461+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:28:24.476+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:28:24.476+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:28:24.495+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.149 seconds
+[2025-04-05T14:28:54.626+0000] {processor.py:186} INFO - Started process (PID=13370) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:28:54.628+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:28:54.629+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:28:54.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:28:54.640+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:28:54.734+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:28:54.734+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:28:54.748+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:28:54.748+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:28:54.767+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.147 seconds
+[2025-04-05T14:29:24.900+0000] {processor.py:186} INFO - Started process (PID=13595) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:29:24.901+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:29:24.902+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:29:24.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:29:24.913+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:29:25.005+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:29:25.004+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:29:25.019+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:29:25.018+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:29:25.035+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.141 seconds
+[2025-04-05T14:29:55.172+0000] {processor.py:186} INFO - Started process (PID=13783) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:29:55.173+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:29:55.174+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:29:55.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:29:55.185+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:29:55.280+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:29:55.279+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:29:55.293+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:29:55.293+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:29:55.312+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.147 seconds
+[2025-04-05T14:30:25.445+0000] {processor.py:186} INFO - Started process (PID=13968) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:30:25.447+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:30:25.448+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:30:25.448+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:30:25.459+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:30:25.550+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:30:25.550+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:30:25.694+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:30:25.694+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:30:25.712+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.273 seconds
+[2025-04-05T14:30:55.820+0000] {processor.py:186} INFO - Started process (PID=14216) to work on /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:30:55.822+0000] {processor.py:914} INFO - Processing file /home/ubuntu/airflow/dags/zillowanalytics.py for tasks to queue
+[2025-04-05T14:30:55.823+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:30:55.823+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:30:55.834+0000] {processor.py:925} INFO - DAG(s) 'zillow_analytics' retrieved from /home/ubuntu/airflow/dags/zillowanalytics.py
+[2025-04-05T14:30:55.926+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:30:55.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-05T14:30:55.943+0000] {logging_mixin.py:190} INFO - [2025-04-05T14:30:55.942+0000] {dag.py:4180} INFO - Setting next_dagrun for zillow_analytics to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-05T14:30:55.964+0000] {processor.py:208} INFO - Processing /home/ubuntu/airflow/dags/zillowanalytics.py took 0.150 seconds
