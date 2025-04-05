@@ -1,0 +1,8 @@
+2025-04-04 15:22:33.145 [info] [certificates] Removed 1 expired certificates
+2025-04-04 15:22:33.853 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-04-04 15:22:33.853 [info] [code-referencing] Public code references are enabled.
+2025-04-04 15:22:34.679 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-04-04 15:22:48.637 [warning] [relatedFiles] unknown language properties
+2025-04-04 15:22:49.421 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 440.3544800000018 ms
+2025-04-04 15:22:49.426 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-04 15:22:49.427 [info] [streamChoices] request done: headerRequestId: [14b7bf92-b846-4bd3-b15e-7262b9cbf7a4] model deployment ID: []

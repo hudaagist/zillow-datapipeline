@@ -1,0 +1,30 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-d54ac13e-e9c3-4631-b7b1-4fd3c8b0e31b
+Extension host agent listening on /tmp/code-d54ac13e-e9c3-4631-b7b1-4fd3c8b0e31b
+
+[10:27:08] 
+
+
+
+
+[10:27:08] Extension host agent started.
+[10:27:09] [<unknown>][dbb354be][ExtensionHostConnection] New connection established.
+[10:27:09] [<unknown>][a392fd1f][ManagementConnection] New connection established.
+[10:27:09] [<unknown>][dbb354be][ExtensionHostConnection] <1094> Launched Extension Host Process.
+[10:27:28] [<unknown>][a392fd1f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:27:28] [<unknown>][dbb354be][ExtensionHostConnection] <1094> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[10:27:28] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[10:27:28] Last EH closed, waiting before shutting down
+[10:27:31] [<unknown>][a2e13403][ExtensionHostConnection] New connection established.
+[10:27:31] [<unknown>][a2e13403][ExtensionHostConnection] <1166> Launched Extension Host Process.
+[10:27:31] [<unknown>][9f96ff8e][ManagementConnection] New connection established.
+New EH opened, aborting shutdown
+[10:32:28] New EH opened, aborting shutdown

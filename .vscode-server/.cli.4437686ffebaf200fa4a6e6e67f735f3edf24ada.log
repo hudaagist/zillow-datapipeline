@@ -1,0 +1,9 @@
+Listening on 127.0.0.1:36091
+[2025-04-05 10:27:07] info Disposed of connection to running server.
+[2025-04-05 10:27:08] info Checking /home/ubuntu/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/log.txt and /home/ubuntu/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/pid.txt for a running server...
+[2025-04-05 10:27:08] info Starting server...
+[2025-04-05 10:27:08] info Server started
+[2025-04-05 10:27:28] info Disposed of connection to running server.
+[2025-04-05 10:27:29] info Disposed of connection to running server.
+[2025-04-05 10:27:30] info Checking /home/ubuntu/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/log.txt and /home/ubuntu/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/pid.txt for a running server...
+[2025-04-05 10:27:30] info Found running server (pid=1064)

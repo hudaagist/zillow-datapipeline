@@ -1,0 +1,12 @@
+2025-04-05 02:33:16.202 [info] Extension host with pid 1154 started
+2025-04-05 02:33:16.523 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-05 02:33:16.795 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-05 02:33:16.995 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-05 02:33:16.996 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-05 02:33:17.353 [info] Eager extensions activated
+2025-04-05 02:33:17.353 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-05 02:33:17.353 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-05 02:33:17.354 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-04-05 02:33:17.354 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-04-05 02:33:55.983 [info] Extension host terminating: received terminate message from renderer
+2025-04-05 02:33:56.025 [info] Extension host with pid 1154 exiting with code 0

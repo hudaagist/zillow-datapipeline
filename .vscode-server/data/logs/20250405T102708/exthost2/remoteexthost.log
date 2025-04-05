@@ -1,0 +1,37 @@
+2025-04-05 10:27:37.391 [info] Extension host with pid 1166 started
+2025-04-05 10:27:37.391 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/51779a4ba088c610142bb52b36c963e1/vscode.lock'
+2025-04-05 10:27:37.397 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/51779a4ba088c610142bb52b36c963e1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-04-05 10:27:37.412 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/51779a4ba088c610142bb52b36c963e1/vscode.lock': The pid 1399 appears to be gone.
+2025-04-05 10:27:37.412 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/51779a4ba088c610142bb52b36c963e1/vscode.lock': Deleting a stale lock.
+2025-04-05 10:27:37.420 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/51779a4ba088c610142bb52b36c963e1/vscode.lock': Lock acquired.
+2025-04-05 10:27:37.734 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-05 10:27:37.736 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-04-05 10:27:39.902 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-04-05 10:27:39.903 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-04-05 10:27:40.217 [info] Eager extensions activated
+2025-04-05 10:27:40.218 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-05 10:27:40.218 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-05 10:27:40.218 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-04-05 10:27:40.219 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-04-05 11:48:15.767 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-04-05 11:48:23.049 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-04-05 11:48:23.050 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-04-05 11:48:23.050 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-04-05 14:19:14.427 [error] Error: e is not iterable
+
+TypeError: e is not iterable
+    at B7.setItems (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:26702)
+    at uc._computeFn (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:26434)
+    at uc._recompute (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:20272)
+    at uc.get (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:19894)
+    at uc.reportChanges (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:12384)
+    at K7.endUpdate (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:26219)
+    at YLe (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:25938)
+    at uc.recomputeInitiallyAndOnChange (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:12960)
+    at KF.init (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:601:1335)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Timeout._onTimeout (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:387:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-04-05 14:19:14.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-04-05 14:19:16.693 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

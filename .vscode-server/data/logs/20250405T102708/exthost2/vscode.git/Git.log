@@ -1,0 +1,54 @@
+2025-04-05 10:27:41.600 [info] [main] Log level: Info
+2025-04-05 10:27:41.600 [info] [main] Validating found git in: "git"
+2025-04-05 10:27:41.600 [info] [main] Using git "2.43.0" from "git"
+2025-04-05 10:27:41.600 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-05 10:27:41.616 [info] > git rev-parse --show-toplevel [31ms]
+2025-04-05 10:27:41.616 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-05 10:27:41.635 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-05 10:27:41.635 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-05 10:27:41.668 [info] > git rev-parse --show-toplevel [26ms]
+2025-04-05 10:27:41.668 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-05 10:27:41.677 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-05 10:27:41.677 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-05 10:27:41.690 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-05 10:27:41.690 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-05 10:27:41.696 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-05 10:27:41.696 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-05 10:27:41.702 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-05 10:27:41.702 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-05 10:27:41.706 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-05 11:42:11.587 [info] > git rev-parse --show-toplevel [0ms]
+2025-04-05 11:42:11.587 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-05 11:50:03.773 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-05 11:50:03.773 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-05 14:17:18.514 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-05 14:17:18.514 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-05 14:17:29.534 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-05 14:17:29.534 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-05 14:19:14.405 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-05 14:19:14.414 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-04-05 14:19:14.426 [info] [Model][openRepository] Opened repository: /home/ubuntu
+2025-04-05 14:19:14.447 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-05 14:19:14.447 [info] > git config --get commit.template [8ms]
+2025-04-05 14:19:14.448 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-04-05 14:19:14.448 [warning] [Git][getBranch] No such branch: master
+2025-04-05 14:19:14.461 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-05 14:19:14.902 [info] > git status -z -uall [449ms] (cancelled)
+2025-04-05 14:19:16.445 [info] > git show --textconv :airflow/dags/zillowanalytics.py [10ms]
+2025-04-05 14:19:16.445 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1423ms]
+2025-04-05 14:19:16.445 [warning] [Git][getBranch] No such branch: master
+2025-04-05 14:19:16.445 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-04-05 14:19:16.459 [info] > git ls-files --stage -- airflow/dags/zillowanalytics.py [17ms]
+2025-04-05 14:19:16.472 [info] > git config --get commit.template [46ms]
+2025-04-05 14:19:16.473 [info] > git check-ignore -v -z --stdin [15ms]
+2025-04-05 14:19:16.474 [info] > git hash-object -t tree /dev/null [3ms]
+2025-04-05 14:19:16.474 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/airflow/dags/zillowanalytics.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fairflow%2Fdags%2Fzillowanalytics.py%22%2C%22ref%22%3A%22%22%7D
+2025-04-05 14:19:16.485 [info] > git hash-object -t tree /dev/null [20ms]
+2025-04-05 14:19:16.485 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/airflow/dags/zillowanalytics.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fairflow%2Fdags%2Fzillowanalytics.py%22%2C%22ref%22%3A%22%22%7D
+2025-04-05 14:19:16.493 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-05 14:19:16.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-04-05 14:19:16.496 [warning] [Git][getBranch] No such branch: master
+2025-04-05 14:19:16.509 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms]
+2025-04-05 14:19:16.711 [info] > git status -z -uall [209ms] (cancelled)
+2025-04-05 14:20:08.696 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-05 14:20:09.803 [info] > git check-ignore -v -z --stdin [2ms]
